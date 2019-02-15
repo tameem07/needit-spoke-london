@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Input a number and return the date that many days ago.</description>
+        <internal_name>get_days_ago_date</internal_name>
+        <label_cache>[{"name":"{{action.ah_days}}","label":"action➛Days","type":"action","ref":""},{"name":"{{step[57194552-acfc-44c3-9f89-9e9caf687350].d}}","label":"step➛Calculate daysAgo Date➛d","type":"step","ref":""},{"name":"{{step[57194552-acfc-44c3-9f89-9e9caf687350].da}}","label":"step➛Calculate daysAgo Date➛da","type":"step","ref":""},{"name":"{{step[57194552-acfc-44c3-9f89-9e9caf687350].day}}","label":"step➛Calculate daysAgo Date➛day","type":"step","ref":""},{"name":"{{step[57194552-acfc-44c3-9f89-9e9caf687350].days}}","label":"step➛Calculate daysAgo Date➛days","type":"step","ref":""},{"name":"{{step[57194552-acfc-44c3-9f89-9e9caf687350].days_}}","label":"step➛Calculate daysAgo Date➛days_","type":"step","ref":""},{"name":"{{step[57194552-acfc-44c3-9f89-9e9caf687350].days_o}}","label":"step➛Calculate daysAgo Date➛days_o","type":"step","ref":""},{"name":"{{step[57194552-acfc-44c3-9f89-9e9caf687350].days_ou}}","label":"step➛Calculate daysAgo Date➛days_ou","type":"step","ref":""},{"name":"{{step[57194552-acfc-44c3-9f89-9e9caf687350].days_out}}","label":"step➛Calculate daysAgo Date➛days_out","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>89c164ba376323009a38036973990ea0</latest_snapshot>
+        <master_snapshot/>
+        <name>Get Days Ago Date</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-14 08:15:36</sys_created_on>
+        <sys_id>5aec48be372323009a38036973990e8e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Get Days Ago Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_113003_needit_sp">e06e1fd2372323009a38036973990e1a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">e06e1fd2372323009a38036973990e1a</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_5aec48be372323009a38036973990e8e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-02-14 14:19:34</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=5aec48be372323009a38036973990e8e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5aec48be372323009a38036973990e8e"/>
+    <sys_element_mapping action="delete_multiple" query="id=5aec48be372323009a38036973990e8e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>date_days_ago</field>
+        <id>5aec48be372323009a38036973990e8e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-14 08:20:59</sys_created_on>
+        <sys_id>812e4432376323009a38036973990e67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-14 08:20:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5aec48be372323009a38036973990e8e</table>
+        <value>{{step[57194552-acfc-44c3-9f89-9e9caf687350].days_out}}</value>
+    </sys_element_mapping>
+</record_update>

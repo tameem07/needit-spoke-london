@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Days Ago Date">89c164ba376323009a38036973990ea0</action>
+        <cid>57194552-acfc-44c3-9f89-9e9caf687350</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Calculate daysAgo Date</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-14 09:46:44</sys_created_on>
+        <sys_id>55c164ba376323009a38036973990ec3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Calculate daysAgo Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_113003_needit_sp">e06e1fd2372323009a38036973990e1a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">e06e1fd2372323009a38036973990e1a</sys_scope>
+        <sys_update_name>sys_hub_step_instance_55c164ba376323009a38036973990ec3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-14 09:46:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=55c164ba376323009a38036973990ec3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>55c164ba376323009a38036973990ec3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-14 09:46:45</sys_created_on>
+        <sys_id>95c164ba376323009a38036973990ee5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-14 09:46:45</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+ 
+  outputs.days_out = gs.daysAgo(inputs.daysago);
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=55c164ba376323009a38036973990ec3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>daysago</field>
+        <id>55c164ba376323009a38036973990ec3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-14 09:46:45</sys_created_on>
+        <sys_id>15c164ba376323009a38036973990ee6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-14 09:46:45</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_55c164ba376323009a38036973990ec3</table>
+        <value>{{action.ah_days}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>55c164ba376323009a38036973990ec3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-14 09:46:45</sys_created_on>
+        <sys_id>15c164ba376323009a38036973990ee5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-14 09:46:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
